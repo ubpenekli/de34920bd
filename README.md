@@ -25,3 +25,10 @@ accepts data
 [token]
 response data
 DB Row of Subscriber Device Data
+
+*/api/verifyReceipt* : GET : it is for mocking of Google and iOS API services at the second section of wanted project "**Purchase**"
+accepts data
+[receipt]
+response data
+[status, expireDate]
+
